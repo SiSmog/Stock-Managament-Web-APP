@@ -1,0 +1,18 @@
+.historyContainer{
+    position:static;
+    float:right;
+    width:calc(97% - 400px);
+    min-width: 62%;
+    max-width: 77%;
+    height: 90vh;
+    margin-top: 10vh;
+}
+@media only screen and (max-width:800px) {
+    .historyContainer{          
+        width: 100%;
+        max-width: none;
+        min-width: none;
+        margin-top: 0;
+        height: fit-content;
+    }
+}

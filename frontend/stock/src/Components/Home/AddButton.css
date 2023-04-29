@@ -1,0 +1,25 @@
+.blue{
+    color: #0088FE;
+}
+.yellow{
+    color: #FFBB28;
+}
+.red{
+    color: #FF8042;
+}
+.ChartButton{
+    height:50px;
+    width:50px;
+}
+.ChartButtonContainer{
+    width: 100%;
+    text-align: center;
+    height: fit-content;
+
+}
+.FixedContainer{
+    position: fixed;
+    right:1vh;
+    bottom: 1vh;
+    height: fit-content;
+}

@@ -1,0 +1,27 @@
+.toast {
+    display: block;
+    position: fixed;
+    bottom: 0;
+    left: 0;
+    opacity: 0;
+    transform: translate(calc(50vw - 50%));
+    text-align: center;
+    padding: 10px;
+    border: none;
+    border-radius: 10px;
+    font-size: 20px;
+}
+
+.displaynone {
+    display: none;
+}
+
+.dangerToast {
+    background-color: #FF7276;
+    color: white;
+}
+
+.successToast {
+    background-color: #90EE90;
+    color: white;
+}

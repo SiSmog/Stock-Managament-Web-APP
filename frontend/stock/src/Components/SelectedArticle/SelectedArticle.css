@@ -1,0 +1,9 @@
+.indication{
+    cursor: pointer;
+    opacity: 0.7;
+}
+.flexrow{
+    display: flex;
+    flex-direction: row;
+    width: fit-content;
+}

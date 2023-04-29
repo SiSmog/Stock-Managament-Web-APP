@@ -1,0 +1,94 @@
+/*https://coolors.co/palette/000000-14213d-fca311-e5e5e5-ffffff*/
+.Navbar {
+    position: fixed;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    height: 10vh;
+    width: 100%;
+    background-color: black;
+    z-index: 9;
+}
+a {
+    all: initial;
+    all: unset;
+  
+ }
+
+a:hover {
+    text-decoration: none;
+ }
+ a:visited{
+    color:#fca311;
+ }
+.logo{
+    height:50px;
+    width:50px;
+    margin-right: -2vw;
+    margin-left: 2vw;
+    cursor: pointer;
+}
+.elementsrow {
+    color: #fca311;
+    margin: auto;
+    font-size: 20px;
+}
+
+.element {
+    margin: 0 3vw;
+    cursor: pointer;
+}
+.element:hover{
+    color: #e5e5e5;
+}
+.bar{
+    display:block;
+    width: 30px;
+    height: 5px;
+    margin: 6px auto;
+
+    background-color: #fca311;
+}
+.hamburger{
+    display: none;
+    cursor: pointer;
+    margin-right: 2vw;
+    margin-left: -2vw;
+}
+.hamburger.active{
+    display: block;
+}
+.elementscolumn{
+    padding: 8px 0;
+    font-size: 20px;
+    z-index: 10;
+    position:fixed;
+    right: 0%;
+    top:10vh;
+    gap: 8px;
+    display:flex;
+    flex-direction: column;
+    width: 100%;
+    text-align: center;
+    background-color: #222;
+}
+.searchbarcontainer {
+    margin: auto;
+    margin-right: 2vw;
+    margin-left: -2vw;
+    float: right;
+    display: flex;
+    flex-direction: row;
+}
+@media only screen and (max-width:800px) {
+    .elementsrow {
+        display: none;
+    }
+    .searchbarcontainer {
+        display: none;
+    }
+    .hamburger{
+        display: block;
+    }
+}

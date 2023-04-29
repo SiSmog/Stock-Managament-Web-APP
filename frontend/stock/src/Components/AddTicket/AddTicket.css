@@ -1,0 +1,75 @@
+.AddTicketContainer{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    background-color: #e5e5e5;
+    width: 100%;
+    height: 100vh;
+    padding-top: 3vh;
+}
+.TicketformContainer{
+    background-color: white;
+    height: 85%;
+    width: 40%;
+    border-radius: 20px;
+    padding: 2vh 1vw;
+    display: flex;
+    flex-direction: column;
+    margin: auto;
+}
+.TicketTableContainer{
+    height: 90%;
+    overflow-y: auto;
+    width: 100%;
+}
+.TicketbuttonContainer{
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    padding: 0 1vw;
+    margin-bottom: 2%;
+    height: 50px;
+    
+}
+.TickettableTitle{
+    margin: auto 0;
+    font-size: 40px;
+}
+
+.AddTitle{
+    background-color: #e5e5e5;
+    font-size: 4.5vh;
+    font-weight: 700;
+    float: left;
+    margin:auto;
+    padding: 0.5vw;
+
+    margin-top: 10vh;
+    height: 6vh;
+    width: 100%;
+}
+@media only screen and (max-width:1280px) {
+    .AddTicketContainer{
+        flex-direction: column;
+        width: 100%;
+        height: 180vh ;
+        justify-content: space-between;
+        padding-bottom: 3vh;
+    }
+    .TicketformContainer{
+        background-color: white;
+        height: 85vh;
+        width: 80vw;
+        border-radius: 20px;
+        padding: 2vh 1vw;
+        display: flex;
+        flex-direction: column;
+    }
+}
+@media only screen and (max-width:800px) {
+
+    .TicketformContainer{
+        width: 95vw;
+    }
+}

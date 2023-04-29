@@ -1,0 +1,46 @@
+input {
+    all: unset;
+    margin: 0;
+    padding: 0;
+  }
+.back{
+    text-align: center;
+    width: 100%;
+}
+.input{
+    color: white;
+    background-color: transparent;
+    border: none;
+    border-bottom: 1px solid grey;
+    overflow:scroll;
+}
+.error{
+    border-bottom: 1px solid #ff726f
+}
+.trans{
+    display: none;
+}
+.name{
+    font-size: 40px;
+    font-weight: 800;
+    color:white;
+    padding: 0.8vh;
+    width:60%;
+
+}
+
+.barcode{
+    color:white;
+    font-size: 20px;
+    width: 70%;
+}
+.quantity{
+    color:white;
+    font-size: 20px;
+    width: 70%;
+}
+.price{
+    color:white;
+    font-size: 20px;
+    width: 70%;
+}

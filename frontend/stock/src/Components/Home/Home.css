@@ -1,0 +1,54 @@
+.DashboardContainer {
+    padding: 3% 5%;
+    padding-top: 13vh;
+    height: 100%;
+    min-height: 100vh;
+    width: 100%;
+    background-color: #e5e5e5;
+}
+
+.ChartTitle {
+    height: fit-content;
+    width: 100%;
+    text-align: center;
+    font-size: 35px;
+    font-weight: 600;
+}
+.ChartTitlerow2 {
+    height: fit-content;
+    width: 100%;
+    text-align: center;
+    font-size: 33px;
+    font-weight: 600;
+}
+
+
+.cursorpointer {
+    cursor: pointer;
+}
+
+.blue {
+    color: #0088FE;
+}
+
+.yellow {
+    color: #FFBB28;
+}
+
+.red {
+    color: #FF8042;
+}
+.flexrowspace{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+@media only screen and (max-width:1280px) {
+    .ChartTitle {
+        font-size: 2.8vw;
+    }
+    .ChartTitlerow2 {
+        font-size: 20px;
+    }
+}

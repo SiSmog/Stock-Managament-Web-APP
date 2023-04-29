@@ -1,0 +1,68 @@
+.danger{
+    background-color: #dc3545;
+    color: white;
+    border:none;
+    cursor: pointer;
+}
+.danger:hover{
+    background-color: #b02a37;
+    transition: 0.3s;
+
+}
+.warning{
+    background-color: #ffc107;
+    color: black;
+    border:none;
+    cursor: pointer;
+
+}
+
+.warning:hover{
+    background-color: #ffb117;
+    transition: 0.3s;
+    
+}
+.primary {
+    background-color: #0d6efd;
+    color: white;
+    border:none;
+    cursor: pointer;
+
+}
+.primary:hover{
+    background-color: #0b5ed7;
+    transition: 0.3s;
+}
+.secondary{
+    background-color: #6c757d;
+    color: white;
+    border: none;
+    cursor: pointer;
+
+}
+.secondary:hover{
+    background-color: #5c636a;
+    transition: 0.3;
+}
+.small{
+    padding: 7px 11px;
+    font-size: 15px;
+    border-radius: 10px;
+
+}
+.medium{
+    padding: 10px 15px;
+    font-size: 20px;
+    border-radius: 10px;
+
+}
+.large{
+    padding: 0px 20px;
+    font-size: 23px;
+    border-radius: 10px;
+    height:50px;
+}
+
+.centered{
+    margin: auto;
+}

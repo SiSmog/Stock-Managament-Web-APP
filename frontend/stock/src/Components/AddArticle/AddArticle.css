@@ -1,0 +1,134 @@
+.text {
+    color: white;
+    font-size: 20px;
+}
+
+.card{
+    display: flex;
+    flex-direction: column;
+    position: fixed;
+    width: calc(400px + 3vw);
+    max-width: 38%;
+    min-width: 23%;
+    height: 90vh;
+    margin-top: 10vh;
+    background-color: #14213d;
+    padding: 2vh 1.5vw;
+    overflow-y: auto;
+    
+}
+
+.imageblock,
+.image {
+    width: 100%;
+    height: 400px;
+    max-height: 50vh;
+    min-height: 30vh;
+    border-radius: 10px;
+    margin: 2vh 0;
+}
+
+.name {
+    font-size: 40px;
+    font-weight: 800;
+    text-align: center;
+}
+
+.rowadd {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    margin: 1vh 0;
+    width: 100%;
+}
+
+.descriptionInput {
+    margin: 1vh 0;
+    width: 100%;
+}
+
+.descriptionBoxInput {
+    position: static;
+    background-color: transparent;
+    height: fit-content;
+    min-height: 15vh;
+    border: 1px solid white;
+    border-radius: 5px;
+    padding: 1vh;
+    color: #e5e5e5;
+    width: 100%;
+}
+
+.outer {
+    text-align: center;
+    width: 100%;
+
+}
+
+.inner {
+    text-align: center;
+    margin: auto;
+    width: 70%;
+}
+
+.date {
+    color: white;
+    font-size: 20px;
+    width: 100%;
+
+}
+
+.wrapper {
+    display: inline-block;
+    position: relative;
+    width: 100%;
+    cursor: pointer;
+}
+
+.imginput {
+    opacity: 0;
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+}
+.leftblock{
+    position: fixed;
+    font-size: 60px;
+    font-weight: 800;
+    right:0;
+    width:calc(97% - 400px);
+    min-width: 62%;
+    max-width: 77%;
+    height: 90%;
+    margin-top: 10vh;
+}
+.svgimg{
+    width: 100%;
+    height: 100%;
+}
+@media only screen and (max-width:800px) {
+    .card{          
+        position: static;
+        width: 100%;
+        max-width: none;
+        min-width: none;
+        padding: 4vh 15vw;
+        margin-top: 0;
+        padding-top: 13vh;
+        height: fit-content;
+    }
+}
+@media only screen and (max-width:600px) {
+    .card{          
+        position: static;
+        width: 100%;
+        max-width: none;
+        min-width: none;
+        padding: 4vh 5vw;
+        margin-top: 0;
+        padding-top: 13vh;
+        height: fit-content;
+    }
+}
